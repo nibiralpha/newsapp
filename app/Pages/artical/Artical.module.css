@@ -1,0 +1,65 @@
+.articleTime {
+    letter-spacing: 0.83px;
+    text-transform: uppercase;
+}
+
+.articalContainer {
+    margin-top: 110px;
+    width: 100%;
+}
+
+.articalBodyArea {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.articalContent {
+    flex-basis: 100%;
+}
+
+.articalContent img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.articalContent p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.articalThumb {
+    flex-basis: 32%;
+}
+
+.articaThumbCaption {
+    color: rgba(0, 0, 0, 0.87);
+    opacity: 0.5;
+}
+
+.articalImg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 33.75em) {
+
+    /* 540px */
+
+    .articalBodyArea {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .articalContainer {
+        margin-top: 110px;
+        width: 65%;
+    }
+
+    .articalContent {
+        flex-basis: 62%;
+    }
+}

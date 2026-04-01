@@ -1,0 +1,28 @@
+.headerContainer {
+    width: 100%;
+    background: rgba(9, 53, 123, 1);
+    padding: 30px 0;
+}
+
+.logo{
+    height: 100px;
+}
+
+.logo img{
+    width: 135px;
+}
+
+.searchArea{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (min-width: 33.75em) {
+
+    /* 540px */
+    .logo{
+        height: auto;
+    }
+    
+  }
